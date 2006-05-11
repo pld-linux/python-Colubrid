@@ -1,4 +1,5 @@
-Summary:	Colubrid - lightweight wski publisher
+Summary:	Colubrid - lightweight WSGI publisher
+Summary(pl):	Colubrid - lekki modu³ do publikowania WSGI
 Name:		python-Colubrid
 Version:	0.9.8
 Release:	1
@@ -14,10 +15,18 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Colubrid is a WSGI publisher which simplifies python web developement. 
-If you've ever created a WSGI application without a framework of an request 
-handler you know how hard this can be. For the full feature list have a look 
-at the Features (http://wsgiarea.pocoo.org/colubrid/features/) page.
+Colubrid is a WSGI publisher which simplifies Python web developement.
+If you've ever created a WSGI application without a framework of an
+request handler you know how hard this can be. For the full feature
+list have a look at the Features
+(http://wsgiarea.pocoo.org/colubrid/features/) page.
+
+%description -l pl
+Colubrid to modu³ do publikowania WSGI u³atwiaj±cy tworzenie WWW w
+Pythonie. Ci, którzy stworzyli kiedykolwiek aplikacjê WSGI bez
+szkieletu procedury obs³ugi ¿±dañ, wiedz±, jakie to mo¿e byæ trudne.
+Pe³na lista mo¿liwo¶ci jest na stronie Features
+(http://wsgiarea.pocoo.org/colubrid/features/).
 
 %prep
 %setup -q -n Colubrid-%{version}
