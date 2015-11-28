@@ -2,7 +2,7 @@ Summary:	Colubrid - lightweight WSGI publisher
 Summary(pl.UTF-8):	Colubrid - lekki moduł do publikowania WSGI
 Name:		python-Colubrid
 Version:	0.10
-Release:	3
+Release:	4
 Group:		Development/Languages/Python
 License:	GPL
 Source0:	http://wsgiarea.pocoo.org/colubrid/dist/Colubrid-%{version}.tar.gz
